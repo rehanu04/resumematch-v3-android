@@ -20,8 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             var darkMode by rememberSaveable { mutableStateOf(true) }
 
-            // ✅ Your backend (Railway) API base URL:
-            val apiBaseUrl = ""
+            // ✅ Your backend (Render) API base URL:
+            val apiBaseUrl = "https://resumematch-ai-backend.onrender.com/"
 
             // ✅ Put YOUR Railway X-App-Key here (same one that works in PowerShell):
             val apiAppKey = ""

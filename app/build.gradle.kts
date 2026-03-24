@@ -40,8 +40,12 @@ android {
 }
 
 dependencies {
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+
     implementation("androidx.datastore:datastore-preferences:1.1.2")
     implementation("androidx.navigation:navigation-compose:2.8.8")
+
+    implementation("com.google.code.gson:gson:2.10.1")
 
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
@@ -64,4 +68,5 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation("androidx.compose.material:material-icons-extended")
 }
+
 
